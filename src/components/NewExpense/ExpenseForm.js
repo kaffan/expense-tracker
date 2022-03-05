@@ -82,6 +82,7 @@ function ExpenseForm(props)
         amount: +amnt,
         date: new Date(date)
       }
+      // console.log(obj.date);
       whenExpenseSaved(obj);
       setTitleChange('');
       setAmntChange('');

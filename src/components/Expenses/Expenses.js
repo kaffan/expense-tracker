@@ -14,12 +14,12 @@ function Expenses(props)
         setCurrYear(year);
         console.log(currYear);
     }
-    console.log(props.expenses);
+    // console.log(props.expenses);
     const filteredExpenses = props.expenses.filter((ele)=>
     {
       return ele.date.getFullYear().toString() === currYear;
     });
-    console.log(filteredExpenses);
+    // console.log(filteredExpenses);
     return (
       <div>
         <Card className="expenses">
