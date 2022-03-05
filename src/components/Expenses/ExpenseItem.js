@@ -16,7 +16,7 @@ function ExpenseItem(props)
         <ExpenseDate date={props.date}></ExpenseDate>
         <div className="expense-item__description">
           <h2 className="text-3xl font-bold underline">{props.title}</h2>
-          <div className="expense-item__price">${props.amount}</div>
+          <div className="expense-item__price">INR {props.amount}</div>
         </div>
         {/* <button onClick={clickHandler}>Change Title</button> */}
       </Card>
