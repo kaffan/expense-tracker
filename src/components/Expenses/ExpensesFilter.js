@@ -1,6 +1,6 @@
 import { PreviousMap } from 'postcss';
 import React from 'react';
-import { useState } from 'react/cjs/react.development';
+import { useState } from 'react';
 import './ExpensesFilter.css';
 
 // The value and the changes to the value of the year selected from the 
